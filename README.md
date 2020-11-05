@@ -8,6 +8,7 @@
 4. ardupilot_gazeebo repository
 5. Git (sudo apt-get install git)
 6. pymavlink (pip install pymavlink)
+7. MAVROS
  
  
 
@@ -22,6 +23,12 @@
 http://wiki.ros.org/melodic/Installation/Ubuntu
 ```
 Install the ros melodic full desktop.
+
+ #### MAVROS (optional)
+```
+https://github.com/mavlink/mavros/tree/master/mavros#installation
+```
+
 
 
  #### Ardupilot Repository
