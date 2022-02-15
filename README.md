@@ -70,13 +70,22 @@ export GAZEBO_MODEL_PATH=~/ardupilot_gazebo/models:${GAZEBO_MODEL_PATH}
 export GAZEBO_MODEL_PATH=~/ardupilot_gazebo/models_gazebo:${GAZEBO_MODEL_PATH}
 export GAZEBO_RESOURCE_PATH=~/ardupilot_gazebo/worlds:${GAZEBO_RESOURCE_PATH}
 export GAZEBO_PLUGIN_PATH=~/ardupilot_gazebo/build:${GAZEBO_PLUGIN_PATH}
+
 ```
 Install is complete
+
+
+
+ #### То run the simulator - 
+```
+gnome-terminal -- bash -c "roscore"
+gnome-terminal -- bash -c "sleep 5;rosrun gazebo_ros gazebo --verbose iris_ardupilot.world"
+simvehicle.py -v ArduCoptor -f gazebo-iris -m --mav10 --console -IO
+```
 
 Reffer bellow for links, and troubleshooting guide :
 1. https://github.com/SwiftGust/ardupilot_gazebo
 2. https://ardupilot.org/dev/docs/sitl-simulator-software-in-the-loop.html
 3. https://ardupilot.org/dev/docs/using-gazebo-simulator-with-sitl.html
 
-#### Code for the session example can be found in the /mav_track folder
 
