@@ -1,4 +1,4 @@
-# Expo-2020 (http://ai.tsu.ru/page14803029.html)
+# Winter School 2022 (www.fit.tsu.ru/robotics)
 
 
 ### Recommended Software (Links and instructions to the above mentioned software are given below):
