@@ -83,6 +83,9 @@ gnome-terminal -- bash -c "sleep 5;rosrun gazebo_ros gazebo --verbose iris_ardup
 simvehicle.py -v ArduCoptor -f gazebo-iris -m --mav10 --console -IO
 ```
 
+
+ #### Task  -  Use the qgroudcontrol groundstation to connect to the simulator and upload 4 waypoints to the flight navigation system and launch the mission. Record a video or take multiple screenshots and upload it to the given portal.
+
 Reffer bellow for links, and troubleshooting guide :
 1. https://github.com/SwiftGust/ardupilot_gazebo
 2. https://ardupilot.org/dev/docs/sitl-simulator-software-in-the-loop.html
