@@ -80,7 +80,12 @@ Install is complete
 ```
 gnome-terminal -- bash -c "roscore"
 gnome-terminal -- bash -c "sleep 5;rosrun gazebo_ros gazebo --verbose iris_ardupilot.world"
-simvehicle.py -v ArduCoptor -f gazebo-iris -m --mav10 --console -IO
+sim_vehicle.py -v ArduCoptor -f gazebo-iris -m --mav10 --console -IO
+```
+
+ #### То run the simulator without gazebo(performance bound systems)- 
+```
+sim_vehicle.py -v ArduCoptor --console --map
 ```
 
 
